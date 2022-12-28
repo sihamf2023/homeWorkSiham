@@ -10,7 +10,7 @@ public class q25 {
     //arrayCount9([1, 9, 9, 3, 9]) → 3
     public static void main(String[] args) {
         q25 sc = new q25();
-         sc.arrayCount9 (9,8,9,6,5);
+         // sc.arrayCount9 (9,8,9,6,5);
     }
 
     public int arrayCount9(int numbers[]){

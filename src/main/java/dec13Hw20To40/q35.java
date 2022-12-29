@@ -11,15 +11,15 @@ public class q35 {
 
     public static void main(String[] args) {
 
-            int[] arr = new int[]{1, 2, 3, 4};
+            int[] arr = new int[]{1, 2, 3};
 //display original array
         System.out.println("original array:"+ Arrays.toString(arr));
-int len=arr.length-1;
-        for (int i=0 ;i< arr.length-1; i++) {
-            arr[i] = arr[i + 1];
-            if (i == len+1 )
-                arr[i] = arr[0];
-        }
+        int temp=arr[0];
+        arr[0]=arr[1];
+        arr[1]=arr[2];
+        arr[2]=temp;
+
+
         System.out.println("Rotated Array : "+Arrays.toString(arr));
 
 
